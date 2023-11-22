@@ -53,7 +53,7 @@ const HomePage = () => {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
                   >
-                    View My Projects
+                    Voire mes Projets
                   </motion.a>
                 </div>
               </div>

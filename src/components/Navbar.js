@@ -52,7 +52,7 @@ const MyNavbar = () => {
             <a href="#competense"><img src={navicon2} className="icon" alt=""/></a>
             <a href="#contact"><img src={navicon3} className="icon" alt=""/></a>
           </div>
-          <button className="vvd" onClick={() => console.log('connect')}><span>connect</span></button>
+          <button className="vvd" onClick={() => console.log('connect')}><span>Télécharger CV</span></button>
         </span>
         
       </Navbar.Collapse>

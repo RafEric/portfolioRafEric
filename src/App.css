@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background-color: black;
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}

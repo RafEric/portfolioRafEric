@@ -3,7 +3,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Navbar.css';  // Fichier CSS personnalisé
 import { useState, useEffect } from 'react';
-import logo from '../assets/icon/online-payment-svgrepo-com.svg';
+
 import navicon1 from '../assets/icon/facebook-svgrepo-com.svg';
 import  navicon2 from '../assets/icon/linkedin-svgrepo-com.svg';
 import navicon3 from '../assets/icon/instagram-svgrepo-com.svg';
@@ -29,9 +29,7 @@ const MyNavbar = () => {
   return (
 
     <Navbar expand="lg" className={scrolled ? "scrolled": "" } >
-       <Navbar.Brand as={Link} to="/" className="navbar-brand ">
-        <img className="logo"src={logo} alt='logo'/>
-      </Navbar.Brand>
+      
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mx-auto">

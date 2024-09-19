@@ -224,18 +224,18 @@ a.btn {
   padding: 10px 20px;
   font-size: 1.2rem;
   color: white;
-  background-color: #323332;
+  background-color: #175752;
   border-radius: 25px;
   text-decoration: none;
-  transition: all 0.3s ease-in-out;
-  box-shadow: 0 5px 15px rgba(255, 136, 0, 0.5);
+  transition: all 0.1s ease-in-out;
+  box-shadow: 0 5px 10px rgba(96, 248, 223, 0.2);
  
 }
 
-.btn:hover {
+/*.btn:hover {
   background-color: #e52e71;
   box-shadow: 0 5px 15px rgba(229, 46, 113, 0.5);
-}
+}*/
 
 .profile-frame-wrapper {
   position: relative;
@@ -261,8 +261,9 @@ a.btn {
   content: "";
   position: absolute;
   width: 400px;
-  height: 400px;
-  background-image: url('../assets/cadrage.png'); /* Le chemin du cadre */
+  height: 470px;
+  background-image: url('../assets/cadrage.png');
+  filter: brightness(0.3); /* Le chemin du cadre */
   background-size: cover;
   background-position: center;
   z-index: 1; /* Derrière la photo */
@@ -281,7 +282,7 @@ a.btn {
 .col-md-7,
 .col-md-5 {
   display: flex;
-  align-items: center; /* Centre verticalement le contenu des colonnes */
+   /* Centre verticalement le contenu des colonnes */
   justify-content: center; /* Centre horizontalement le contenu des colonnes */
   flex-direction: column; /* Aligne les enfants verticalement */
 }

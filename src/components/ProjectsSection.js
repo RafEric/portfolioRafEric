@@ -3,14 +3,14 @@ import './HomePage.css'; // Assurez-vous que ce fichier est importé correctemen
 
 const projects = [
   { title: 'Prestataire des Mecaniciens', description: 'Mon projet "Prestataire Mécanicien" a deux objectifs. Le premier est daider un prestataire, quil soit isolé ou quil ne travaille pas dans un garage, à trouver des clients. Le second est daider un client à trouver un mécanicien adapté à ses besoins, en fonction de son expérience ou de ses tarifs. De plus, il permet de localiser rapidement un mécanicien pour un dépannage lorsque le client tombe en panne, grâce à la position géographique.', link: '#' },
-  { title: 'Project Two', description: 'A description of project two.', link: '#' },
-  { title: 'Project Three', description: 'A description of project three.', link: '#' },
+  { title: 'Gestion PV réunion', description: '.', link: '#' },
+  { title: '', description: '', link: '#' },
 ];
 
 const ProjectsSection = () => (
   
   <div className="projects-section" id="projects">
-    <h2>My Projects</h2>
+    <h2>Mes Projets</h2>
     <div class="row projectRow gy-4">
     {projects.map(project => (
         

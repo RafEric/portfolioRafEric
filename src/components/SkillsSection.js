@@ -1,21 +1,31 @@
 import React from 'react';
-import './HomePage.css'; // Assurez-vous que ce fichier est importé correctement
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCogs, faDatabase, faPlug } from '@fortawesome/free-solid-svg-icons';
+import { faPython , faGithub, faHtml5, faCss3,faJs, faBootstrap, faLinux, faWindows} from '@fortawesome/free-brands-svg-icons';
+import './HomePage.css';
 
 const skills = [
-  { name: 'Python', icon: 'fab fa-python' },
-  { name: 'Django', icon: 'fas fa-cogs' },
-  { name: 'MySQL', icon: 'fas fa-database' },
-  { name: 'APIs', icon: 'fas fa-plug' },
+  { name: 'Python', icon: faPython },
+  { name: 'Django', icon: faCogs },
+  { name: 'MySQL - Sqlite - Sql', icon: faDatabase },
+  { name: 'APIs', icon: faPlug },
+  {name: 'Git - Github', icon: faGithub },
+  { name: 'html', icon: faHtml5 },
+  { name: 'css', icon: faCss3 },
+  {name: 'js', icon: faJs },
+  { name: 'linux', icon: faLinux },
+  { name: 'windows', icon: faWindows },
+  {name: 'bootstrap', icon: faBootstrap },
+  
 ];
 
 const SkillsSection = () => (
   <div className="skills-section" id="skills">
-    <h2>My Skills</h2>
+    <h2>mes compétences</h2>
     <div className="skills-list">
       {skills.map(skill => (
         <div className="skill-card" key={skill.name}>
-          <i className={skill.icon}></i>
+          <FontAwesomeIcon icon={skill.icon} />
           <h3>{skill.name}</h3>
         </div>
       ))}

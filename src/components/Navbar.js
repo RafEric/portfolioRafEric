@@ -34,13 +34,13 @@ const MyNavbar = () => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mx-auto">
           <Nav.Link as={Link} to="/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>
-            Home
+            Acceuille
           </Nav.Link>
           <Nav.Link as={Link}  to="/about" className={activeLink === 'competenses' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')} >
-            About
+            Apropos 
           </Nav.Link>
           <Nav.Link as={Link} to="/services" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>
-            Services
+            Projets
           </Nav.Link>
           <Nav.Link as={Link} to="/contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>
             Contact

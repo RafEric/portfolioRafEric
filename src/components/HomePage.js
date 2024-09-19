@@ -23,7 +23,7 @@ const HomePage = () => {
             
               <div className="row  gy-4">
                 {/* Image de profil */}
-                <div className="col-md-7">
+                <div className="col-md-6">
                   <motion.div
                    className="profile-frame-wrapper"
                     initial={{ opacity: 0, scale: 0.9 }}

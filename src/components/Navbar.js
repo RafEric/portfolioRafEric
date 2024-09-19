@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';  // Fichier CSS personnalisé
 import { useState, useEffect } from 'react';
 import logo from '../assets/icon/online-payment-svgrepo-com.svg';
-import navicon1 from '../assets/icon/django-svgrepo-com(1).svg';
-import  navicon2 from '../assets/icon/djangoproject-svgrepo-com.svg';
-import navicon3 from '../assets/icon/online-shopping-website-svgrepo-com.svg';
+import navicon1 from '../assets/icon/facebook-svgrepo-com.svg';
+import  navicon2 from '../assets/icon/linkedin-svgrepo-com.svg';
+import navicon3 from '../assets/icon/instagram-svgrepo-com.svg';
 
 const MyNavbar = () => {
   const [ activeLink, setActiveLink] = useState('HomePage');

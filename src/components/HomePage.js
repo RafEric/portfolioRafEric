@@ -16,7 +16,7 @@ const HomePage = () => {
           className="intro-content"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
+         
         >
           
             {/* Colonne contenant l'image et le texte */}
@@ -28,7 +28,7 @@ const HomePage = () => {
                    className="profile-frame-wrapper"
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.8 }}
+                   
                   >
                     <img src={profileImg} alt="Profile" className="profile-img" />
                   </motion.div>
@@ -67,7 +67,7 @@ const HomePage = () => {
           className="background-image"
           initial={{ opacity: 0, scale: 1.1 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1, delay: 0.5 }}
+          
         >
           <img src={backgroundImg} alt="Background" />
         </motion.div>

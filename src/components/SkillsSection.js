@@ -7,7 +7,7 @@ import './HomePage.css';
 const skills = [
   { name: 'Python', icon: faPython },
   { name: 'Django', icon: faCogs },
-  { name: 'MySQL - Sqlite - Sql', icon: faDatabase },
+  { name: 'MySQL - Sqlite - postgresql', icon: faDatabase },
   { name: 'APIs', icon: faPlug },
   {name: 'Git - Github', icon: faGithub },
   { name: 'html', icon: faHtml5 },

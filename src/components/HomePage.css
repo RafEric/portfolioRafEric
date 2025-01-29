@@ -214,7 +214,7 @@
 }
 
 .project-card {
-  background-color: #05070f;
+  background-color: #0f1b26;
   
   border-radius: 0.5rem;
   overflow: hidden;
@@ -499,7 +499,7 @@ a.btn {
 /* Section Globale */
 .skills-section {
   padding: 3rem 1.5rem;
-  background-color: #05070f; /* Fond noir profond */
+  background-color: #0c1020; /* Fond noir profond */
   color: #F1F1F1; /* Texte clair pour contraster */
   text-align: center;
   padding-top: 100px;
@@ -526,7 +526,7 @@ a.btn {
 
 /* Groupes de compétences */
 .skill-group {
-  background:#0a0d1a; /* Fond légèrement plus clair que #121212 */
+  background:#0f1b26; /* Fond légèrement plus clair que #121212 */
   padding: 1.5rem;
   border-radius: 15px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
@@ -593,7 +593,7 @@ a.btn {
 
 .backContact {
   padding: 4rem 2rem;
-  background-color: #0e1013;
+  background-color: #0f1b26;
   text-align: center;
 }
 .BackAbout {

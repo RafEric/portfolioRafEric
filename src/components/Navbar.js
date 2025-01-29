@@ -39,7 +39,10 @@ const MyNavbar = () => {
           <Nav.Link as={Link}  to="/about" className={activeLink === 'competenses' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')} >
             Apropos 
           </Nav.Link>
-          <Nav.Link as={Link} to="/services" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>
+          <Nav.Link as={Link}  to="/skillSection" className={activeLink === 'competenses' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')} >
+            Competenses
+          </Nav.Link>
+          <Nav.Link as={Link} to="/project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>
             Projets
           </Nav.Link>
           <Nav.Link as={Link} to="/contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>

@@ -5,7 +5,7 @@ import ProjectsSection from './ProjectsSection';
 import SkillsSection from './SkillsSection';
 import About from './About';
 import Contact from './Contact';
-import Footer from './Footer';
+
 
 import backgroundImg from '../assets/bb.jpeg';
 import profileImg from '../assets/BackgroundEraser_20240918_175909117.png'; // Assurez-vous d'importer votre image de profil
@@ -81,7 +81,7 @@ const HomePage = () => {
       <ProjectsSection />
       
       <Contact/>
-      <Footer />
+     
     </>
   );
 };

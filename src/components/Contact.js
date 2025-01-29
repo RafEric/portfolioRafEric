@@ -51,7 +51,7 @@ const Contact = () => {
                   placeholder="Votre email"
                   style={{
                     backgroundColor: "#2b2b3d",
-                    color: "#ffffff",
+                    color: "#fff",
                     border: "none",
                   }}
                 />

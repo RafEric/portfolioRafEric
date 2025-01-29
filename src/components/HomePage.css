@@ -197,6 +197,7 @@
   padding: 4rem 2rem;
   background-image: url('../assets/bb.jpeg');
   text-align: center;
+  padding-top: 100px;
 }
 
 .projects-section h2 {
@@ -501,6 +502,7 @@ a.btn {
   background-color: #05070f; /* Fond noir profond */
   color: #F1F1F1; /* Texte clair pour contraster */
   text-align: center;
+  padding-top: 100px;
 }
 
 /* Titre principal */
@@ -518,6 +520,7 @@ a.btn {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 3rem;
   justify-items: center;
+
  
 }
 

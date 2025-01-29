@@ -45,9 +45,9 @@ const skills = [
 ];
 
 const SkillsSection = () => (
-  <div className="skills-section" id="skills">
+  <div className="skills-section " id="skills">
     <h2 className="skills-title">Mes Compétences</h2>
-    <div className="skills-grid">
+    <div className="skills-grid container">
       {skills.map((skillGroup, index) => (
         <div className="skill-group" key={index}>
           <h3 className="skill-category">{skillGroup.category}</h3>

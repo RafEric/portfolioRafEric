@@ -24,7 +24,7 @@ const projects = [
 const ProjectsSection = () => (
   <div className="projects-section" id="projects">
     <h2>Mes Projets</h2>
-    <div className="projects-container">
+    <div className="projects-container ">
       {projects.map((project) => (
         <div className="project-card" key={project.title}>
           <img src={image} alt={project.title} className="project-image" />

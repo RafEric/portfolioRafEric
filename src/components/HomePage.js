@@ -3,6 +3,10 @@ import { motion } from 'framer-motion';
 import './HomePage.css'; // Assurez-vous que ce fichier est importé
 import ProjectsSection from './ProjectsSection';
 import SkillsSection from './SkillsSection';
+import About from './About';
+import Contact from './Contact';
+import Footer from './Footer';
+
 import backgroundImg from '../assets/bb.jpeg';
 import profileImg from '../assets/BackgroundEraser_20240918_175909117.png'; // Assurez-vous d'importer votre image de profil
 
@@ -72,9 +76,12 @@ const HomePage = () => {
           <img src={backgroundImg} alt="Background" />
         </motion.div>
       </section>
-
+      <About/>
       <SkillsSection />
       <ProjectsSection />
+      
+      <Contact/>
+      <Footer />
     </>
   );
 };

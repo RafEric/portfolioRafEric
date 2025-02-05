@@ -108,7 +108,7 @@
   font-size: 1.2rem;
   color: #b4b7bb;
 }
-*/
+
 .skills-section {
   padding: 20px;
   text-align: center;
@@ -116,11 +116,11 @@
 }
 
 .skills-list {
-  display: grid; /* Utiliser la grille */
-  grid-template-columns: repeat(6, 1fr); /* 6 compétences par ligne sur les grands écrans */
-  gap: 10px; /* Espacement entre les éléments */
-  justify-content: center; /* Centrer les éléments horizontalement */
-  align-items: center; /* Centrer les éléments verticalement */
+  display: grid; /* Utiliser la grille 
+  grid-template-columns: repeat(6, 1fr); /* 6 compétences par ligne sur les grands écrans 
+  gap: 10px; /* Espacement entre les éléments 
+  justify-content: center; /* Centrer les éléments horizontalement 
+  align-items: center; /* Centrer les éléments verticalement 
 }
 
 .skill-card {
@@ -155,7 +155,7 @@
 .skill-card svg {
   font-size: 1.5rem;
   color: #3a6bcc;
-}
+}*/
 @media screen and (min-width: 1024px) {
   .skills-list {
     grid-template-columns: repeat(6, 1fr); /* 6 compétences par ligne */
@@ -434,9 +434,7 @@ a.btn {
   transition: transform 0.1s ease-in-out;*/
 }
 
-.profile-frame-wrapper:hover::before {
-  /*transform: rotate(10deg); Légère rotation au survol */
-}
+
 
 .profile-frame-wrapper:hover .profile-img {
   transform: scale(1.05); /* Zoom de l'image de profil au survol */
@@ -509,7 +507,7 @@ a.btn {
 .skills-title {
   font-size: 2.5rem;
   margin-bottom: 2rem;
-  color: #FF6F61; /* Accent color */
+  color: rgb(208, 225, 241); /* Accent color */
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); /* Ombre douce */
   font-weight: bold;
 }
@@ -526,10 +524,10 @@ a.btn {
 
 /* Groupes de compétences */
 .skill-group {
-  background:#0f1b26; /* Fond légèrement plus clair que #121212 */
+  background:#1e2433; /* Fond légèrement plus clair que #121212 */
   padding: 1.5rem;
   border-radius: 15px;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+ 
   transition: transform 0.3s, box-shadow 0.3s;
   width:300px;
 }
@@ -578,7 +576,7 @@ a.btn {
 /* Icônes */
 .skill-item svg {
   margin-bottom: 0.5rem;
-  color: #c5b842; /* Accent color pour les icônes */
+  /*color: #c5b842;  Accent color pour les icônes */
   font-size: 2rem;
 }
 

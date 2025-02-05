@@ -7,7 +7,7 @@ const AboutTextOnly = () => {
       className="about-text-only py-5 BackAbout"
       id="about"
       style={{
-        backgroundColor: "#05070f",
+       
         color: "#ffffff",
         textAlign: "center",
         paddingTop: "50px",

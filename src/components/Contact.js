@@ -22,7 +22,7 @@ const Contact = () => {
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              style={{ backgroundColor: "#1a1a2e", borderRadius: "10px" }}
+              style={{ backgroundColor: "#1e2433", borderRadius: "10px" }}
             >
               <div className="mb-3">
                 <label htmlFor="name" className="form-label text-light">

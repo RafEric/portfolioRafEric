@@ -7,7 +7,7 @@ import About from './About';
 import Contact from './Contact';
 
 
-import backgroundImg from '../assets/bb.jpeg';
+import backgroundImg from '../assets/steve-johnson-cm4U9PEtGWY-unsplash.jpg';
 import profileImg from '../assets/BackgroundEraser_20240918_175909117.png'; // Assurez-vous d'importer votre image de profil
 
 const HomePage = () => {
